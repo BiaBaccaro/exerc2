@@ -9,14 +9,12 @@
 
     <?php
 
-$num1 = 50;
-$num2 = 60;
+$num1 = 90;
+$num2 = 30;
 $texto = "É uma string";
 
     if (is_numeric($num1)) {
-
         $result1 = $num1 * 2;
-
     if ($result1 > 100) {
         
         echo "O número é maior que 100: $result1<br>";
@@ -24,18 +22,12 @@ $texto = "É uma string";
     }
 
     if (is_numeric($num2)) {
-    $result2 = $num2 * 2;
-    if ($result2 > 100) {
-        echo "O número é maior que 100: $result2<br>";
+        $result2 = $num2 * 2;
+    if ($result2 < 100) {
+        echo "O número é menor que 100: $result2<br>";
     }
     }
 
-    if (is_numeric($texto)) {
-    $result3 = $texto * 2;
-    if ($result3 > 100) {
-        echo "O número é maior que 100: $result3<br>";
-    }
-    } 
     ?>
 
 </body>
