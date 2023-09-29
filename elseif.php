@@ -9,24 +9,22 @@
 
     <?php
 // Declare duas variáveis com números e uma com uma string
-$numero1 = 50;
-$numero2 = 60;
+$num1 = 50;
+$num2 = 60;
 $texto = "É uma string";
 
-    if (is_numeric($numero1)) {
+    if (is_numeric($num1)) {
 
-        $resultado1 = $numero1 * 2;
+        $resultado1 = $num1 * 2;
 
     if ($resultado1 > 100) {
         
         echo "O número é maior que 100: $resultado1<br>";
     }
-    } else {
-        echo "A variável não é um número<br>";
     }
 
-    if (is_numeric($numero2)) {
-    $resultado2 = $numero2 * 2;
+    if (is_numeric($num2)) {
+    $resultado2 = $num2 * 2;
     if ($resultado2 > 100) {
         echo "O número é maior que 100: $resultado2<br>";
     }
