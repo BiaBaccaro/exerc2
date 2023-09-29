@@ -37,9 +37,7 @@ $texto = "É uma string";
     if ($resultado3 > 100) {
         echo "O resultado é maior que 100: $resultado3<br>";
     }
-    } else {
-        echo "A variável não é um número<br>";
-    }
+    } 
     ?>
 
 </body>
