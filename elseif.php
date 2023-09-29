@@ -8,32 +8,32 @@
 <body>
 
     <?php
-// Declare duas variáveis com números e uma com uma string
+
 $num1 = 50;
 $num2 = 60;
 $texto = "É uma string";
 
     if (is_numeric($num1)) {
 
-        $resultado1 = $num1 * 2;
+        $result1 = $num1 * 2;
 
-    if ($resultado1 > 100) {
+    if ($result1 > 100) {
         
-        echo "O número é maior que 100: $resultado1<br>";
+        echo "O número é maior que 100: $result1<br>";
     }
     }
 
     if (is_numeric($num2)) {
-    $resultado2 = $num2 * 2;
-    if ($resultado2 > 100) {
-        echo "O número é maior que 100: $resultado2<br>";
+    $result2 = $num2 * 2;
+    if ($result2 > 100) {
+        echo "O número é maior que 100: $result2<br>";
     }
     }
 
     if (is_numeric($texto)) {
-    $resultado3 = $texto * 2;
-    if ($resultado3 > 100) {
-        echo "O número é maior que 100: $resultado3<br>";
+    $result3 = $texto * 2;
+    if ($result3 > 100) {
+        echo "O número é maior que 100: $result3<br>";
     }
     } 
     ?>
